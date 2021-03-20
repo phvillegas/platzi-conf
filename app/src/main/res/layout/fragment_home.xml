@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="@dimen/home_fragment_card_corner_radius"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/home_fragment_image_view_height"
+                        android:contentDescription="@string/home_fragment_banner"
+                        android:src="@drawable/banner_platzi_conf" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginTop="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginEnd="@dimen/home_fragment_subtitle_margin"
+                        android:text="@string/home_fragment_what_is_it"
+                        android:textColor="@color/primary_dark"
+                        android:textSize="@dimen/home_fragment_title_size"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginTop="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginEnd="@dimen/home_fragment_subtitle_margin"
+                        android:text="@string/home_fragment_what_is_it_answer"
+                        android:textColor="@color/primary"
+                        android:textSize="@dimen/home_fragment_subtitle_size" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="@dimen/home_fragment_card_corner_radius"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/home_fragment_image_view_height"
+                        android:contentDescription="@string/home_fragment_banner"
+                        android:src="@drawable/platzi_conf_2" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginTop="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginEnd="@dimen/home_fragment_subtitle_margin"
+                        android:text="@string/home_fragment_why"
+                        android:textColor="@color/primary_dark"
+                        android:textSize="@dimen/home_fragment_title_size"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginTop="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginEnd="@dimen/home_fragment_subtitle_margin"
+                        android:text="@string/home_fragment_why_answer"
+                        android:textColor="@color/primary"
+                        android:textSize="@dimen/home_fragment_subtitle_size" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="@dimen/home_fragment_card_corner_radius"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/home_fragment_image_view_height"
+                        android:contentDescription="@string/home_fragment_banner"
+                        android:src="@drawable/platzi_conf_3" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginTop="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginEnd="@dimen/home_fragment_subtitle_margin"
+                        android:text="@string/home_fragment_info"
+                        android:textColor="@color/primary_dark"
+                        android:textSize="@dimen/home_fragment_title_size"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginTop="@dimen/home_fragment_subtitle_margin"
+                        android:layout_marginEnd="@dimen/home_fragment_subtitle_margin"
+                        android:text="@string/home_fragment_info_answer"
+                        android:textColor="@color/primary"
+                        android:textSize="@dimen/home_fragment_subtitle_size" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

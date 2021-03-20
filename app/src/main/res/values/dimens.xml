@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashLogoHeight">45dp</dimen>
+    <dimen name="tool_bar_height">30dp</dimen>
+    <dimen name="home_fragment_card_corner_radius">4dp</dimen>
+    <dimen name="home_fragment_image_view_height">150dp</dimen>
+    <dimen name="home_fragment_title_size">20sp</dimen>
+    <dimen name="home_fragment_subtitle_margin">10dp</dimen>
+    <dimen name="home_fragment_subtitle_size">15sp</dimen>
+
+    <dimen name="schedule_item_hour_title">30sp</dimen>
+    <dimen name="schedule_item_hour_subtitle">20sp</dimen>
+</resources>
