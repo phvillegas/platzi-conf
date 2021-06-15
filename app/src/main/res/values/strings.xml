@@ -8,6 +8,8 @@
     <string name="schedule_hour_default_text">00:00</string>
     <string name="schedule_hour_type">A.M</string>
 
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam consequatur cupiditate dignissimos dolor dolores est expedita, in iusto modi molestias, nemo, neque numquam pariatur veritatis? Doloremque excepturi facere itaque.</string>
+
     <!-- app texts content -->
     <string name="home_fragment_what_is_it">¿Qué es PlatziConf?</string>
     <string name="home_fragment_what_is_it_answer">Platzi una vez más, cómo todos los años, hace el evento más grande de comunidad tecnológica en los que apasionados por aprender, emprender e innovar se encuentran en un mismo lugar para escuchar a expertos de la industria que durante horas comparten su conocimiento.</string>
